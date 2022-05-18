@@ -1,0 +1,55 @@
+Aparencia:DropDownList: para que no se pueda escribir dentro del modulo
+SelectedItem.ToString:Sirve para seleccionar solo un dato de la lista de texto y se transcriba
+.Parse =  El método Parse() puede utilizarse para convertir una representación de cadena de un número en un entero equivalente con signo de 16/32/64 bits.
+
+
+selectedIndex:Indica la opcion seleccionada aparte de las propiedas comunes (si no elegimos nada, que lo tome como eror)
+		ejemplo: 
+        public frmLogin()
+        {
+            InitializeComponent();
+            listModulo.SelectedIndex = 0;
+        }
+
+
+Application.Exit(); es para cerrar un formulario cuando apretamos el boton cancelar
+
+
+
+Tipos de variables:
+String: Declara textos que contienen numeros, letras y caracteres
+Decimal: Numeros con "," ej= 2.32
+Int: Numeros enteros ej=2
+
+
+
+
+
+Operadores Relacionales en C#
+== : igual que
+!= : diferente a
+> : mayor que
+< : menor que
+>= : mayor igual que
+<= : menor igual que
+
+
+
+operadores logicos
+&	Y lógico	If (test1)&(test2)	Cierto si ambos son ciertos
+|	O lógico	If (test1) | (test2)	Cierto si alguno de los dos es cierto
+^	O exclusivo	If (test1)^(test2)	Cierto si alguno es cierto y el otro NO lo es
+!	Negación	If ! test	Invierte el resultado de test
+&&	Y lógico	If (test1)&&(test2)	Igual que &, pero solo evalua test2 si test1 es cierto
+||	O lógico	If (test1)||(test2)	Igual que |, pero solo evalua test2 si test1 es falso
+
+&& : Operador AND (Y) quiere decir que todas las condiciones deben ser verdaderas para que se ejecute una acción.
+ 
+|| : Operador OR (O) quiere decir que de todas las condiciones solo una debe ser verdadera y se asume que con eso es suficiente para hacer determinada acción.
+ 
+! : Operdaro NOT (NO) quiere decir que se niega la afirmación para cambiar su valor, es decir cambia de verdadero a falso y de falso a verdadero.
+
+
+CONDICIONALES
+cuando declaramos una condicional sea if,while,etc no debemos poner ; al finalizar el()
+ ej:if(varUsuario == "Ada" && varContrasenia == "1a" && varModulo != "SIST")
